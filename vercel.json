@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/my-blog/:slug",
+      "destination": "https://proxy-blog.framersandbox.dev/blog/:slug"
+    },
+    {
+      "source": "/my-blog",
+      "destination": "https://proxy-blog.framersandbox.dev/blog"
+    },
+    {
+      "source": "/products/:id",
+      "destination": "https://proxy-products.framersandbox.dev/products/:id"
+    },
+    {
+      "source": "/motion",
+      "destination": "https://www.framer.com/motion/"
+    },
+    {
+      "source": "/**",
+      "destination": "https://proxy-landing.framersandbox.dev"
+    }
+  ]
+}
