@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/private(.*)",
+      "destination": "https://proxy-private.framersandbox.dev"
+    },
+    {
       "source": "/my-blog/:slug",
       "destination": "https://proxy-blog.framersandbox.dev/blog/:slug"
     },
