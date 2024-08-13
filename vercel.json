@@ -17,7 +17,7 @@
       "destination": "https://www.framer.com/motion/"
     },
     {
-      "source": "/**",
+      "source": "/(.*)",
       "destination": "https://proxy-landing.framersandbox.dev"
     }
   ]
