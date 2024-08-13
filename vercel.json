@@ -14,7 +14,7 @@
     },
     {
       "source": "/motion",
-      "destination": "https://www.framer.com/motion/"
+      "destination": "https://www.framer.com/motion"
     },
     {
       "source": "/(.*)",
