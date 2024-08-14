@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/locales(/.*)",
-      "destination": "https://proxy-locales.framersandbox.dev/:1"
+      "source": "/locales/(.*)",
+      "destination": "https://proxy-locales.framersandbox.dev/:0"
     },
     {
       "source": "/private(.*)",
