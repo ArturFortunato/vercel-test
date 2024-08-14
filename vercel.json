@@ -17,7 +17,7 @@
       "destination": "https://proxy-blog.framersandbox.dev/blog"
     },
     {
-      "source": "/products/:id",
+      "source": "/new-products/:id",
       "destination": "https://proxy-products.framersandbox.dev/products/:id"
     },
     {
