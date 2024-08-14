@@ -18,7 +18,7 @@
     },
     {
       "source": "/:locale(pt)/new-products/:id",
-      "destination": "https://proxy-products.framersandbox.dev/:locale(pt)/products/:id"
+      "destination": "https://proxy-products.framersandbox.dev/:locale/products/:id"
     },
     {
       "source": "/motion",
