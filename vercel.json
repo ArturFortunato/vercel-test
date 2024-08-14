@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/:locale(pt)/locales/:path*",
-      "destination": "https://proxy-locales.framersandbox.dev/:locale/:path*"
+      "source": "/locales/:path*",
+      "destination": "https://proxy-locales.framersandbox.dev/:path*"
     },
     {
       "source": "/private(.*)",
@@ -17,8 +17,8 @@
       "destination": "https://proxy-blog.framersandbox.dev/blog"
     },
     {
-      "source": "/new-products/:id",
-      "destination": "https://proxy-products.framersandbox.dev/products/:id"
+      "source": "/:locale(pt)/new-products/:id",
+      "destination": "https://proxy-products.framersandbox.dev/:locale(pt)/products/:id"
     },
     {
       "source": "/motion",
