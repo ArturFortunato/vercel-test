@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/locales/(.*)",
-      "destination": "https://proxy-locales.framersandbox.dev/:0"
+      "destination": "https://proxy-locales.framersandbox.dev/:match*"
     },
     {
       "source": "/private(.*)",
