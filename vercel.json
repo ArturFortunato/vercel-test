@@ -25,8 +25,12 @@
       "destination": "https://www.framer.com/motion"
     },
     {
-      "source": "/:path*",
-      "destination": "https://proxy-landing.framersandbox.dev/:path*"
+      "source": "/path-to-path",
+      "destination": "https://proxy-landing.framersandbox.dev/path"
+    },
+    {
+      "source": "/path-to-root",
+      "destination": "https://proxy-landing.framersandbox.dev/"
     }
   ]
 }
