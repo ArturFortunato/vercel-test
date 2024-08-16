@@ -38,7 +38,7 @@
       "destination": "https://proxy-landing.framersandbox.dev/"
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "https://proxy-landing.framersandbox.dev/:path*"
     }
   ]
