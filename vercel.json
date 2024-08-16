@@ -21,6 +21,10 @@
       "destination": "https://proxy-products.framersandbox.dev/:locale/products/:id"
     },
     {
+      "source": "/new-products/:id",
+      "destination": "https://proxy-products.framersandbox.dev/products/:id"
+    },
+    {
       "source": "/motion",
       "destination": "https://www.framer.com/motion"
     },
