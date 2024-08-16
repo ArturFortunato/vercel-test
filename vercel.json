@@ -10,6 +10,10 @@
       "destination": "https://proxy-private.framersandbox.dev"
     },
     {
+      "source": "/_framer/login",
+      "destination": "https://proxy-private.framersandbox.dev/_framer/login"
+    },
+    {
       "source": "/my-blog/:slug",
       "destination": "https://proxy-blog.framersandbox.dev/blog/:slug"
     },
@@ -28,10 +32,6 @@
     {
       "source": "/motion",
       "destination": "https://www.framer.com/motion"
-    },
-    {
-      "source": "/path",
-      "destination": "https://proxy-landing.framersandbox.dev/path"
     },
     {
       "source": "/path-to-root",
