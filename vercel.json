@@ -43,6 +43,10 @@
     {
       "source": "/path-to-root",
       "destination": "https://proxy-landing.framersandbox.dev/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://proxy-landing.framersandbox.dev/:path*"
     }
   ]
 }
