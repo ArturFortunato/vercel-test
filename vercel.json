@@ -29,15 +29,7 @@
       "destination": "https://www.framer.com/motion"
     },
     {
-      "source": "/test/banana",
-      "destination": "https://calm-operation-883135.framer.app/banana"
-    },
-    {
-      "source": "/test/bananas",
-      "destination": "https://calm-operation-883135.framer.app/bananas"
-    },
-    {
-      "source": "/path-to-path",
+      "source": "/path",
       "destination": "https://proxy-landing.framersandbox.dev/path"
     },
     {
