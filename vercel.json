@@ -1,5 +1,4 @@
 {
-  "trailingSlash": false,
   "rewrites": [
     {
       "source": "/locales/:path*",
@@ -38,7 +37,7 @@
       "destination": "https://proxy-landing.framersandbox.dev/"
     },
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "destination": "https://proxy-landing.framersandbox.dev/:path*"
     }
   ]
