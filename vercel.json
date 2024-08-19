@@ -14,6 +14,14 @@
       "destination": "https://proxy-private.framersandbox.dev/_framer/login"
     },
     {
+      "source": "/old/blog/:slug",
+      "destination": "https://proxy-blog.framersandbox.dev/blog/:slug"
+    },
+    {
+      "source": "/olg/blog",
+      "destination": "https://proxy-blog.framersandbox.dev/blog"
+    },
+    {
       "source": "/blog/:slug",
       "destination": "https://proxy-blog.framersandbox.dev/blog/:slug"
     },
