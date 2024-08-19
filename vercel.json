@@ -18,7 +18,7 @@
       "destination": "https://proxy-blog.framersandbox.dev/blog/:slug"
     },
     {
-      "source": "/olg/blog",
+      "source": "/old/blog",
       "destination": "https://proxy-blog.framersandbox.dev/blog"
     },
     {
