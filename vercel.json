@@ -23,7 +23,7 @@
     },
     {
       "source": "/my-blog/:slug",
-      "destination": "https://proxy-blog.framersandbox.dev/blog/:slug"
+      "destination": "https://proxy-blog.framersandbox.dev/my-blog/:slug"
     },
     {
       "source": "/my-blog",
@@ -62,7 +62,11 @@
       "destination": "https://proxy-landing.framersandbox.dev/"
     },
     {
-      "source": "/:path*",
+      "source": "/fastclip/:path*",
+      "destination": "https://www.fastclip.io/:path*"
+    },
+    {
+      "source": "/external/:path*",
       "destination": "https://proxy-landing.framersandbox.dev/:path*"
     },
     {
