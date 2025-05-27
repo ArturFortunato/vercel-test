@@ -1,6 +1,6 @@
 {
   "trailingSlash": false,
-    "headers": [
+  "headers": [
     {
       "source": "/artur/(.*)",
       "headers": [
@@ -19,7 +19,7 @@
         }
       ]
     }
-  ]
+  ],
   "rewrites": [
     {
       "source": "/locales/:path*",
