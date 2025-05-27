@@ -22,6 +22,10 @@
   ],
   "rewrites": [
     {
+      "source": "/(.*)",
+      "destination": "https://google.com"
+    },
+    {
       "source": "/locales/:path*",
       "destination": "https://proxy-locales.framersandbox.dev/:path*"
     },
