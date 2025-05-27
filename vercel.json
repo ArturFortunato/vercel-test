@@ -2,20 +2,20 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "YYY"
-        }
-      ]
-    },
-    {
       "source": "/artur/(.*)",
       "headers": [
         {
           "key": "Content-Security-Policy",
           "value": "XXX"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "YYY"
         }
       ]
     }
