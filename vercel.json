@@ -23,7 +23,7 @@
   "redirects": [
     {
       "source": "/motion",
-      "target": "https://google.com",
+      "destination": "https://google.com",
       "permanent": true
     }
   ],
