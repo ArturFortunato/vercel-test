@@ -20,13 +20,6 @@
       ]
     }
   ],
-  "redirects": [
-    {
-      "source": "/motion",
-      "destination": "https://google.com",
-      "permanent": true
-    }
-  ],
   "rewrites": [
     {
       "source": "/locales/:path*",
@@ -99,6 +92,13 @@
     {
       "source": "/",
       "destination": "https://proxy-landing.framersandbox.dev/"
+    }
+  ],
+    "redirects": [
+    {
+      "source": "/motion",
+      "destination": "https://google.com",
+      "permanent": true
     }
   ]
 }
