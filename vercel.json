@@ -20,6 +20,13 @@
       ]
     }
   ],
+  "redirects": [
+    {
+      "source": "/motion",
+      "target": "https://google.com",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
