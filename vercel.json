@@ -14,8 +14,8 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Content-Security-Policy",
-          "value": "YYY"
+          "key": "Server",
+          "value": "Artur-hacking"
         }
       ]
     }
@@ -75,7 +75,7 @@
     },
     {
       "source": "/motion",
-      "destination": "https://www.framer.com/motion"
+      "destination": "https://www.motion.dev"
     },
     {
       "source": "/path-to-root",
