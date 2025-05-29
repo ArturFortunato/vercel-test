@@ -47,7 +47,7 @@
     },
     {
       "source": "/my-blog",
-      "destination": "https://proxy-blog.framersandbox.dev/blog"
+      "destination": "https://proxy-blog.framersandbox.dev/blog/"
     },
     {
       "source": "/old/blog/:slug",
