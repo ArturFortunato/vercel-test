@@ -14,8 +14,8 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Server",
-          "value": "Artur-hacking"
+          "key": "Cache-Control",
+          "value": "public, max-age=5, must-revalidate"
         }
       ]
     }
