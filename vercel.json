@@ -11,7 +11,7 @@
       ]
     },
     {
-      "source": "/page",
+      "source": "/page/",
       "headers": [
         {
           "key": "Content-Type",
@@ -22,7 +22,7 @@
   ],
   "rewrites": [
     {
-      "source": "/page/",
+      "source": "/page",
       "destination": "https://honest-event-700656.framerdev.app/page"
     }
   ],
