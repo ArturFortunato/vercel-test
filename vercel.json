@@ -24,7 +24,7 @@
     {
       "source": "/page/",
       "destination": "https://honest-event-700656.framerdev.app/page"
-    },
+    }
   ],
     "redirects": []
 }
